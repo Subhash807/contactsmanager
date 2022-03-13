@@ -1,0 +1,33 @@
+
+.container{
+  justify-content: center;
+  align-items: center;
+  width:25em;
+  margin-bottom: 5em;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+}
+.email,.name,.phno{
+  display: flex;
+  justify-content: space-between;
+   width: 100%;
+   margin-bottom: 10px;
+   align-items: center;
+}
+.email input,.name input,.phno input{
+  padding: .5rem;
+  margin-top: 10px;
+  width: 80%
+}
+
+button{
+  
+    margin-top: 10px;
+    width: fit-content;
+    margin-left: auto;
+}
+.table{
+  margin: 1em;
+  text-align: center;
+}

@@ -1,0 +1,28 @@
+
+.container{
+  justify-content: center;
+  align-items: center;
+  width:25em;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+}
+.email,.password,.secret{
+  display: flex;
+    flex-direction: column;
+   width: 100%;
+   margin-bottom: 10px;
+}
+.email input,.password input,.secret input{
+  padding: .5rem;
+  margin-top: 10px;
+}
+
+button{
+  width: 100%;
+    margin-top: 10px
+}
+.terms{
+  text-align: center
+}
